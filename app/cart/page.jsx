@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-import { assets } from "@/assets/assets";
+import { assets } from "@/assets/assets.mjs";
 import OrderSummary from "@/components/OrderSummary";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";

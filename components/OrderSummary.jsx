@@ -1,4 +1,4 @@
-import { addressDummyData } from "@/assets/assets";
+import { addressDummyData } from "@/assets/assets.mjs";
 import { useAppContext } from "@/context/AppContext";
 import React, { useEffect, useState } from "react";
 

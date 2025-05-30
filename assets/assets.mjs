@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import TICN from "./TICN.jpg";
+import NBTI from "./NBTI.png";
 import search_icon from "./search_icon.svg";
 import user_icon from "./user_icon.svg";
 import cart_icon from "./cart_icon.svg";
@@ -51,6 +53,8 @@ export const assets = {
   logo,
   search_icon,
   user_icon,
+  TICN,
+  NBTI,
   cart_icon,
   add_icon,
   order_icon,

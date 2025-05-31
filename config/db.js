@@ -15,7 +15,7 @@ async function connectDB() {
         const opts = {
             bufferCommands: false
         }
-        cached.promise = (await mongoose.connect(`${process.env.MONGODB_URI}/ticn-store`, opts)).then(mongoose => {
+        cached.promise = (mongoose.connect(`${process.env.MONGODB_URI}/ticn-store`, opts)).then(mongoose => {
             return mongoose
         })
     }
